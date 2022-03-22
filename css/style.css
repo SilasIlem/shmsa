@@ -376,12 +376,18 @@ button {
   color: #fff;
 }
 
+#posts .row {
+  justify-content: center;
+  align-items: center;
+}
+
 /** Services section **/
 
 .Services {
   margin-top: 90px;
   padding: 60px 0;
   background: #0c0f38;
+  text-align: center;
   font-family: Poppins;
 }
 
@@ -412,8 +418,9 @@ button {
   background: #ddd;
 }
 
-.Services .Services-box i img {
+.Services .Services-box img {
   margin-top: -10px;
+  margin: auto;
   max-width: 70px;
   max-height: 70px;
 }
