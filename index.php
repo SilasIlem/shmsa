@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>Data web</title>
+   <title>Shmsa</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -54,13 +54,22 @@
                               <a class="nav-link" href="#">Home</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="./about.html"> About </a>
+                              <a class="nav-link" href="./about.html"> About Us</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="#service"> Service</a>
+                              <a class="nav-link" href="#service">Staff</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="#contact">Contact</a>
+                              <a class="nav-link" href="#contact">Academics</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#contact">Gallery</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#contact">Portal</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#contact">Contact Us</a>
                            </li>
 
                         </ul>
@@ -79,15 +88,15 @@
          <div class="row d_flex">
             <div class="col-md-5">
                <div class="text-bg">
-                  <h1>Heritage<br> Ventures & ICT</h1>
-                  <span>All Naija's Education News Here</span>
-                  <p>Get news about Nigerian Institutes, Fast and Reliable Fee Payments for any academic/Government Institute in Nigeria.</p>
-                  <a href="#">Get Started</a>
+                  <h1>Sacred Heart<br> Minor Seminary</h1>
+                  <span>Teaching and Social Development</span>
+                  <p>We aim at success by creating skills necessary for kids to enrich & empower in studies & spots.</p>
+                  <a href="#">Learn More</a>
                </div>
             </div>
             <div class="col-md-7">
                <div class="text-img">
-                  <figure><img src="images/img.png" /></figure>
+                  <figure><img src="images/Taking notes-amico.svg" /></figure>
                </div>
             </div>
          </div>
@@ -100,50 +109,35 @@
          <div class="row">
             <div class="col-md-12">
                <div class="titlepage">
-                  <h2>Waec Results are out... Get yours here.</h2>
+                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, est!.</h2>
                </div>
             </div>
          </div>
          <div class="row">
             <div class="col-md-12">
                <div class="gistOfIt">
-                  <figure><img src="images.png" alt="Waec pic" /></figure>
-                  <p>Waec results are out now... </p>
+                  <figure><img src="images/Studying-rafiki.svg" alt="pic" /></figure>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorum autem qui.</p>
                   <a href="#">Read more</a><a href="posts.html/#waec">Subscribe</a>
                </div>
             </div>
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>Jamb Results uploading... Subscribe for notification.</h2>
+                     <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quos.</h2>
                   </div>
                </div>
             </div>
             <div class="row">
                <div class="col-md-12">
                   <div class="gistOfIt">
-                     <figure><img src="download.png" alt="Waec pic" /></figure>
-                     <p>Jamb results might not be out yet, but they sure are loading... Subscribe below to be notified via email when they surface.</p>
+                     <figure><img src="images/Mathematics-amico.svg" alt="pic" /></figure>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita!</p>
                      <a href="#">Read more</a><a href="#contact">Subscribe</a>
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Neco Results uploading... Subscribe for notification.</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="gistOfIt">
-                     <figure><img src="download.jpeg" alt="Neco pic" /></figure>
-                     <p>Neco results might not be out yet, but they sure are loading... Subscribe below to be notified via email when they surface.</p>
-                     <a href="#">Read more</a><a href="#contact">Subscribe</a>
-                  </div>
-               </div>
-            </div>
+
          </div>
       </div>
       <!-- end Hosting -->
@@ -153,8 +147,8 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>All Services</h2>
-                     <p>All services in one place <br>
+                     <h2>News</h2>
+                     <p>All news in one place <br>
                         Be sure to contact us.
                      </p>
                   </div>
@@ -164,59 +158,49 @@
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <a href="./posts/posts.html#waec">
                      <div class="Services-box">
-                        <i><img src="images.png" alt="#" /></i>
-                        <h3>Waec</h3>
+                        <i><img src="images/Studying-amico.svg" alt="#" /></i>
+                        <h3>news 1</h3>
                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
 
                      </div>
                   </a>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="./posts/posts.html#Jamb">
+                  <a href="./news/news.html">
                      <div class="Services-box">
-                        <i><img src="download.png" alt="#" /></i>
-                        <h3>Jamb</h3>
+                        <i><img src="images/Taking notes-amico.svg" alt="#" /></i>
+                        <h3>News 2</h3>
                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
 
                      </div>
                   </a>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="./posts/posts.html#Neco">
+                  <a href="#">
                      <div class="Services-box">
-                        <i><img src="download.jpeg" alt="#" /></i>
-                        <h3>Neco</h3>
+                        <i><img src="images/nigeria-1758969.svg" alt="#" /></i>
+                        <h3>News 3</h3>
                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
 
                      </div>
                   </a>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="./posts/posts.html#GCE">
+                  <a href="#">
                      <div class="Services-box">
-                        <i><img src="images/" alt="#" /></i>
-                        <h3>GCE</h3>
+                        <i><img src="images/Taking notes-amico.svg" alt="#" /></i>
+                        <h3>News 4</h3>
                         <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
 
                      </div>
                   </a>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="./posts/posts.html#nysc">
+                  <a href="#">
                      <div class="Services-box">
-                        <i><img src="images/service5.png" alt="#" /></i>
-                        <h3>NYSC form</h3>
-                        <p>Now out... click below to register now.</p>
-
-                     </div>
-                  </a>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="./posts/posts.html#army">
-                     <div class="Services-box">
-                        <i><img src="images/service6.png" alt="#" /></i>
-                        <h3>Army Recruitment form</h3>
-                        <p>Coming Soon</p>
+                        <i><img src="images/Mathematics-amico.svg" alt="#" /></i>
+                        <h3>News 5</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, inventore?</p>
 
                      </div>
                   </a>
@@ -232,7 +216,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>Why should you trust us</h2>
+                     <h2>Why should you choose us</h2>
                      <p>We'll work all the way so you wouldn't have to lift a finger... Pay and all will be taken care of.</p>
                   </div>
                </div>
@@ -240,25 +224,25 @@
             <div class="row">
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div id="box_ho" class="why-box">
-                     <i><img src="images/why1.png" alt="#" /></i>
+                     <i><img src="images/Taking notes-amico.svg" alt="#" /></i>
                      <h3>We're Done With it</h3>
-                     <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iste ipsum. Quasi odio cum nisi, quae iste tempore voluptatem atque.</p>
                   </div>
                   <a class="read_more bg" href="#">Read More</a>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="why-box">
-                     <i><img src="images/why2.png" alt="#" /></i>
+                     <i><img src="images/Studying-amico.svg" alt="#" /></i>
                      <h3>They aren't done with it</h3>
-                     <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iste ipsum. Quasi odio cum nisi, quae iste tempore voluptatem atque.</p>
                   </div>
                   <a class="read_more bg" href="#">Read More</a>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                   <div class="why-box">
-                     <i><img src="images/why3.png" alt="#" /></i>
+                     <i><img src="images/Studying-rafiki.svg" alt="#" /></i>
                      <h3>You haven't paid for it</h3>
-                     <p>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still </p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iste ipsum. Quasi odio cum nisi, quae iste tempore voluptatem atque.</p>
                   </div>
                   <a class="read_more bg" href="#">Read More</a>
                </div>
@@ -272,6 +256,8 @@
             <div class="row">
                <div class="col-md-6">
                   <form class="main_form">
+                     <h2>Address : P. O. Box 146, Araromi Street, Akure, Ondo State, Nigeria.</h2>
+
                      <div class="row">
                         <div class="col-sm-12">
                            <input class="contactus" placeholder="Name" type="text" name="Name">
@@ -301,9 +287,9 @@
          <div class="footer">
             <div class="container">
                <div class="row">
-                  <div class="col-md-10 offset-md-1">
+                  <div class="col-md-10">
                      <div class="cont">
-                        <h3>Contact Heritage</h3>
+                        <h3>Contact Us</h3>
                         <span>Our services are of ultimate reliability</span>
                         <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                            quissed do eiusmod tempor incididunt ut labore et dolore

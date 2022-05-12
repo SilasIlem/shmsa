@@ -257,7 +257,7 @@ button {
 /*-- header area --*/
 
 .header {
-  background: #0c0f38;
+  background: #455a64;
   width: 100%;
   padding: 40px 40px 40px 40px;
 }
@@ -271,7 +271,7 @@ button {
 }
 
 .banner_main {
-  background: #0c0f38;
+  background: #455a64;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-bottom: 90px;
@@ -386,7 +386,7 @@ button {
 .Services {
   margin-top: 90px;
   padding: 60px 0;
-  background: #0c0f38;
+  background: #455a64;
   text-align: center;
   font-family: Poppins;
 }
@@ -530,7 +530,7 @@ button {
 
 .bg {
   font-size: 16px;
-  background-color: #090808;
+  background-color: #455a64;
   color: #fff;
   padding: 10px 0px;
   width: 100%;
@@ -557,7 +557,7 @@ button {
 }
 
 .main_form {
-  background: #0c0f38;
+  background: #455a64;
   padding: 55px 55px;
   border-radius: 30px;
   margin-bottom: -58%;
@@ -597,6 +597,11 @@ button {
   border-radius: 30px;
 }
 
+.contact .main_form h2 {
+  color: white;
+  padding: 12px 6px;
+}
+
 .contact .main_form .send:hover {
   background-color: #8308eb;
   transition: ease-in all 0.5s;
@@ -620,7 +625,7 @@ button {
 
 .footer {
   font-family: Poppins;
-  background: #0c0f38;
+  background: #455a64;
 }
 
 .cont {
