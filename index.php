@@ -2,329 +2,293 @@
 <html lang="en">
 
 <head>
-   <!-- basic -->
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <!-- mobile metas -->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-   <!-- site metas -->
-   <title>Shmsa</title>
-   <meta name="keywords" content="">
-   <meta name="description" content="">
-   <meta name="author" content="">
-   <!-- bootstrap css -->
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <!-- style css -->
-   <link rel="stylesheet" href="css/style.css">
-   <!-- Responsive-->
-   <link rel="stylesheet" href="css/responsive.css">
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Shmsa</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
 
-   <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css" />
 
 </head>
 <!-- body -->
 
-<body class="main-layout">
+<body>
+    <header>
+        <img src="images/IMG-20220512-WA0002.jpg" alt="">
+        <nav>
+            <ul id="navlinks">
+                <a href="index.php">
+                    <li>Home</li>
+                </a>
+                <a href="about.php">
+                    <li>About Us</li>
+                </a>
+                <a href="academics.php">
+                    <li>
+                        Academics
+                    </li>
+                </a>
+                <a href="staff.php">
+                    <li>
+                        Staff
+                    </li>
+                </a>
+                <a href="news.php">
+                    <li>News</li>
+                </a>
+                <a href="gallery">
+                    <li>Gallery</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <i class="bi bi-x"></i>
+        </div>
+    </header>
 
-   <!-- header -->
-   <header>
-      <!-- header inner -->
-      <div class="header">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                  <div class="full">
-                     <div class="center-desk">
-                        <div class="logo">
-                           <i class="bi bi-people"></i>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse" id="navbarsExample04">
-                        <ul class="navbar-nav mr-auto">
+    <main>
+        <!-- banner -->
+        <section class="banner">
 
-                           <li class="nav-item active">
-                              <a class="nav-link" href="#">Home</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="./about.html"> About Us</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#service">Staff</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#contact">Academics</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#contact">Gallery</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#contact">Portal</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#contact">Contact Us</a>
-                           </li>
-
-                        </ul>
-                     </div>
-                  </nav>
-               </div>
-            </div>
-         </div>
-      </div>
-   </header>
-   <!-- end header inner -->
-   <!-- end header -->
-   <!-- banner -->
-   <section class="banner_main">
-      <div class="container">
-         <div class="row d_flex">
-            <div class="col-md-5">
-               <div class="text-bg">
-                  <h1>Sacred Heart<br> Minor Seminary</h1>
-                  <span>Teaching and Social Development</span>
-                  <p>We aim at success by creating skills necessary for kids to enrich & empower in studies & spots.</p>
-                  <a href="#">Learn More</a>
-               </div>
-            </div>
-            <div class="col-md-7">
-               <div class="text-img">
-                  <figure><img src="images/Taking notes-amico.svg" /></figure>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- end banner -->
-
-   <div id="posts">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="titlepage">
-                  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, est!.</h2>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-md-12">
-               <div class="gistOfIt">
-                  <figure><img src="images/Studying-rafiki.svg" alt="pic" /></figure>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolorum autem qui.</p>
-                  <a href="#">Read more</a><a href="posts.html/#waec">Subscribe</a>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quos.</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="gistOfIt">
-                     <figure><img src="images/Mathematics-amico.svg" alt="pic" /></figure>
-                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, expedita!</p>
-                     <a href="#">Read more</a><a href="#contact">Subscribe</a>
-                  </div>
-               </div>
+            <div class="text">
+                <h1>Sacred Heart<br> Minor Seminary</h1>
+                <span>Teaching and Social Development</span>
+                <p>We aim at success by creating skills necessary for kids to enrich & empower in studies & spots.</p>
+                <a href="#"><button>Learn More</button></a>
             </div>
 
-         </div>
-      </div>
-      <!-- end Hosting -->
-      <!-- Services  -->
-      <div id="service" class="Services">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>News</h2>
-                     <p>All news in one place <br>
-                        Be sure to contact us.
-                     </p>
-                  </div>
-               </div>
+            <img src="images/IMG-20220512-WA0004.jpg" alt="">
+
+        </section>
+        <!-- end banner -->
+
+        <!-- Photo Stack -->
+        <section class="booth">
+            <ul>
+                <li><img src="images/nigeria-1758969.svg" alt=""></li>
+                <li><img src="images/IMG-20220512-WA0003.jpg" alt=""></li>
+                <li><img src="images/IMG-20220512-WA0002.jpg" alt=""></li>
+                <li><img src="images/IMG-20220512-WA0004.jpg" alt=""></li>
+                <li><img src="images/IMG-20220512-WA0001.jpg" alt=""></li>
+                <li><img src="images/IMG-20220510-WA0001.jpg" alt=""></li>
+            </ul>
+        </section>
+        <!-- End Photo stack -->
+        <div class="initiative">
+            The school was founded in *year*, and has ever since been a center of attention. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, illum?
+        </div>
+        <!-- Values -->
+        <section class="values">
+            <div class='mission'>
+                <h1>Our Mission</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam incidunt, ad velit eveniet natus maiores minus voluptas quisquam aperiam. Corrupti.</p>
             </div>
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="./posts/posts.html#waec">
-                     <div class="Services-box">
-                        <i><img src="images/Studying-amico.svg" alt="#" /></i>
-                        <h3>news 1</h3>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
 
-                     </div>
-                  </a>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="./news/news.html">
-                     <div class="Services-box">
-                        <i><img src="images/Taking notes-amico.svg" alt="#" /></i>
-                        <h3>News 2</h3>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
-
-                     </div>
-                  </a>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="#">
-                     <div class="Services-box">
-                        <i><img src="images/nigeria-1758969.svg" alt="#" /></i>
-                        <h3>News 3</h3>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
-
-                     </div>
-                  </a>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="#">
-                     <div class="Services-box">
-                        <i><img src="images/Taking notes-amico.svg" alt="#" /></i>
-                        <h3>News 4</h3>
-                        <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
-
-                     </div>
-                  </a>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <a href="#">
-                     <div class="Services-box">
-                        <i><img src="images/Mathematics-amico.svg" alt="#" /></i>
-                        <h3>News 5</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, inventore?</p>
-
-                     </div>
-                  </a>
-               </div>
-               <a class="read_more" href="posts/posts.html">Read More</a>
+            <div class="vision">
+                <h1>Our Vision</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam incidunt, ad velit eveniet natus maiores minus voluptas quisquam aperiam. Corrupti.</p>
             </div>
-         </div>
-      </div>
-      <!-- end Servicess -->
-      <!-- why -->
-      <div id="why" class="why">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Why should you choose us</h2>
-                     <p>We'll work all the way so you wouldn't have to lift a finger... Pay and all will be taken care of.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div id="box_ho" class="why-box">
-                     <i><img src="images/Taking notes-amico.svg" alt="#" /></i>
-                     <h3>We're Done With it</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iste ipsum. Quasi odio cum nisi, quae iste tempore voluptatem atque.</p>
-                  </div>
-                  <a class="read_more bg" href="#">Read More</a>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="why-box">
-                     <i><img src="images/Studying-amico.svg" alt="#" /></i>
-                     <h3>They aren't done with it</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iste ipsum. Quasi odio cum nisi, quae iste tempore voluptatem atque.</p>
-                  </div>
-                  <a class="read_more bg" href="#">Read More</a>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                  <div class="why-box">
-                     <i><img src="images/Studying-rafiki.svg" alt="#" /></i>
-                     <h3>You haven't paid for it</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, iste ipsum. Quasi odio cum nisi, quae iste tempore voluptatem atque.</p>
-                  </div>
-                  <a class="read_more bg" href="#">Read More</a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end why -->
-      <!-- contact -->
-      <div id="contact" class="contact">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <form class="main_form">
-                     <h2>Address : P. O. Box 146, Araromi Street, Akure, Ondo State, Nigeria.</h2>
 
-                     <div class="row">
-                        <div class="col-sm-12">
-                           <input class="contactus" placeholder="Name" type="text" name="Name">
-                        </div>
-                        <div class="col-sm-12">
-                           <input class="contactus" placeholder="Email" type="text" name=" Email">
-                        </div>
-                        <div class="col-sm-12">
-                           <input class="contactus" placeholder="Phone" type="text" name="Phone">
-                        </div>
-                        <div class="col-sm-12">
-                           <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                        </div>
-                        <div class="col-sm-12">
-                           <button class="send">Send</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
+            <div class="standards">
+                <h1>Our Standards</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam incidunt, ad velit eveniet natus maiores minus voluptas quisquam aperiam. Corrupti.</p>
             </div>
-         </div>
-      </div>
+            <h1>We don't just give students the best education, we give them a hope for the brightest of futures.</h1>
+            <button>Apply Here</button>
+        </section>
+        <!-- End Values -->
+        <!-- News -->
+        <section class="news">
+            <h1>Our School's Latest News...</h1>
+            <ul>
+                <li>
+                    <img src="images/IMG-20220512-WA0001.jpg" alt="">
+                    <div>
+                        <span>By Management | 20<sup>th</sup> of May, 2000</span>
+                        <h2>Today is the day.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/IMG-20220512-WA0001.jpg" alt="">
+                    <div>
+                        <span>By Management | 20<sup>th</sup> of May, 2000</span>
+                        <h2>Today is the day.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/IMG-20220512-WA0003.jpg" alt="">
+                    <div>
+                        <span>By Management | 20<sup>th</sup> of May, 2000</span>
+                        <h2>Today is the day.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/daniel-leone-v7daTKlZzaw-unsplash.jpg" alt="">
+                    <div>
+                        <span>By Management | 20<sup>th</sup> of May, 2000</span>
+                        <h2>Today is the day.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.</p>
+                    </div>
+                </li>
+            </ul>
 
-      <!-- end contact -->
-      <!--  footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-10">
-                     <div class="cont">
-                        <h3>Contact Us</h3>
-                        <span>Our services are of ultimate reliability</span>
-                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                           quissed do eiusmod tempor incididunt ut labore et dolore
-                           magna aliqua. Ut enim ad minim veniam, quis
+            <div class="sub">
+                <h1>Subscribe for Newsletter</h1>
+                <form action="">
+                    <input type="email" placeholder="Enter email to receive newsletters directly from us">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- End News -->
+
+        <!-- Qualities -->
+        <section class="qualities">
+            <ul>
+                <li>
+                    <i class="bi bi-people-fill"></i>
+                    <h2>Learn from Experts</h2>
+                    <p>Our students are involved in all activities as we have the best to make them so.</p>
+                </li>
+
+                <li>
+                    <i class="bi bi-bricks"></i>
+                    <h2>Modern Facilities</h2>
+                    <p>State-of-the-art facilities at the students' disposal.</p>
+                </li>
+
+                <li>
+                    <i class="bi bi-flower3"></i>
+                    <h2>
+                        Serene Environment
+                    </h2>
+                    <p>Guardians can rest assured of the healthy environment their wards inhibit.</p>
+                </li>
+                <li>
+                    <i class="bi bi-award-fill"></i>
+                    <h2>
+                        Experienced Teachers
+                    </h2>
+                    <p>Our teachers are qualified to the core.</p>
+                </li>
+            </ul>
+        </section>
+        <!-- End Qualities section -->
+        <!-- Docs -->
+        <section class="docs">
+            <p>
+                <span>"</span>
+                The best of the best are made, not born... many are born with silver spoons, but none with golden brains. Learning is the only way to go.
+                <span>"</span>
+            </p>
+
+            <h1>Download Documents & Books...</h1>
+
+            <ul>
+                <li>
+                    <i class="bi bi-calendar"></i>
+                    <p>Programme of activities for this term.</p>
+                </li>
+                <li>
+                    <i class="bi bi-book"></i>
+                    <p>School Calendar</p>
+                </li>
+                <li>
+                    <i class="bi bi-bar-chart"></i>
+                    <p>Keep up with the pace..</p>
+                </li>
+            </ul>
+            <button>See All</button>
+        </section>
+        <!-- End Docs -->
+        <!-- FAQS -->
+        <section class="faqs">
+            <h1>Frequestly Asked Questions.</h1>
+            <ul>
+                <li>
+                    <details>
+                        <summary>
+                            Who are we?
+                        </summary>
+                        <p>
+                            We are hope for your male wards.
                         </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12 footer-icons">
-                        <i class="bi bi-twitter"></i>
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-whatsapp"></i>
-                        <i class="bi bi-facebook"></i>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>
+                            Who are we?
+                        </summary>
+                        <p>
+                            We are hope for your male wards.
+                        </p>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>
+                            Who are we?
+                        </summary>
+                        <p>
+                            We are hope for your male wards.
+                        </p>
+                    </details>
+                </li>
+            </ul>
+        </section>
+        <!-- End FAQS -->
+        <!-- Contact -->
+        <section class="contact">
 
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+            <form class="main_form">
+                <h2>Address : P. O. Box 146, Araromi Street, Akure, Ondo State, Nigeria.</h2>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input class="contactus" placeholder="Name" type="text" name="Name">
+                    </div>
+                    <div class="col-sm-12">
+                        <input class="contactus" placeholder="Email" type="text" name=" Email">
+                    </div>
+                    <div class="col-sm-12">
+                        <input class="contactus" placeholder="Phone" type="text" name="Phone">
+                    </div>
+                    <div class="col-sm-12">
+                        <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                    </div>
+                    <div class="col-sm-12">
+                        <button class="send">Send</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- end contact -->
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
