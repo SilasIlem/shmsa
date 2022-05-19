@@ -262,16 +262,17 @@
 
             <form class="main_form">
                 <h2>Address : P. O. Box 146, Araromi Street, Akure, Ondo State, Nigeria.</h2>
-
+                <br>
+                <h2>Quick Enquiry</h2>
                 <div class="row">
                     <div class="col-sm-12">
-                        <input class="contactus" placeholder="Name" type="text" name="Name">
+                        <input class="contactus" placeholder="Your Subject" type="text" name="Name">
                     </div>
                     <div class="col-sm-12">
-                        <input class="contactus" placeholder="Email" type="text" name=" Email">
+                        <input class="contactus" placeholder="Name" type="text" name=" Email">
                     </div>
                     <div class="col-sm-12">
-                        <input class="contactus" placeholder="Phone" type="text" name="Phone">
+                        <input class="contactus" placeholder="Email" type="email" name="email">
                     </div>
                     <div class="col-sm-12">
                         <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
@@ -284,8 +285,30 @@
         </section>
         <!-- end contact -->
     </main>
-
+    <!-- footer -->
     <footer>
+        <p>
+            <span>About Us:</span>
+            <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, unde!
+        </p>
+        <div>
+            <div>
+                <a href="#">About Us</a>
+                <a href="">Academics</a>
+                <a href="">Staff</a>
+            </div>
+            <div>
+                <a href="#">About Us</a>
+                <a href="">Academics</a>
+                <a href="">Staff</a>
+            </div>
+            <div>
+                <a href="#">About Us</a>
+                <a href="">Academics</a>
+                <a href="">Staff</a>
+            </div>
+        </div>
 
     </footer>
     <script src="js/app.js"></script>

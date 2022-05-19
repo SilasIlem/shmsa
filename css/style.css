@@ -391,7 +391,6 @@ nav ul {
 /** contact section **/
 
 .contact {
-  padding: 12px;
   font-family: Poppins;
   min-height: 800px;
 }
@@ -461,6 +460,92 @@ nav ul {
 }
 
 /** end contact section **/
+
+/** footer **/
+
+footer {
+  font-family: Poppins;
+  background: navy;
+  padding: 16px;
+  width: 100vw;
+  color: white;
+}
+
+footer p {
+  font-size: 1.4rem;
+}
+
+footer p span {
+  font-size: 1.8rem;
+}
+footer > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer div div {
+  display: flex;
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+  flex-direction: column;
+}
+
+.cont {
+  text-align: center;
+  margin-top: 31%;
+}
+
+.cont h3 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 30px;
+  font-weight: bold;
+  padding: 30px 0px 0px 0px;
+}
+
+.cont span {
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 30px 0px 30px 0px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.cont p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 30px;
+  padding: 0 130px;
+  padding-bottom: 60px;
+}
+
+.copyright {
+  padding: 20px 0px;
+  background: #fff;
+}
+
+.copyright p {
+  color: #1e1e1e;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.copyright a {
+  color: #1e1e1e;
+}
+
+.copyright a:hover {
+  color: #0c0f38;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+}
+/** end footer **/
+
 @media screen and (max-width: 764px) {
   :root {
     font-size: 14px;
@@ -504,5 +589,16 @@ nav ul {
   /*Banner*/
   .banner .text {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .news li,
+  .sub input,
+  .docs > p,
+  .docs li,
+  .faqs details,
+  .main_form {
+    width: 95vw;
   }
 }
