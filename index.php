@@ -304,13 +304,31 @@
                 <a href="">Staff</a>
             </div>
             <div>
-                <a href="#">About Us</a>
-                <a href="">Academics</a>
-                <a href="">Staff</a>
+                <p>Contact Info</p>
+                <p><i class="bi bi-geo"></i>Our Address :
+                    <br>
+                    SACRED HEART MINOR SEMINARY
+                    <br>
+                    P. O. Box 146 Araromi Street, Akure, Ondo State, Nigeria.
+                </p>
+                <p><i class="bi bi-clock"></i> Working hours : 8:00 a.m. - 6:00p.m.</p>
+                <p><i class="bi bi-phone"></i> +234900109875</p>
+            </div>
+            <div id="icons">
+                <h2>Reach us on:</h2>
+                <div class="footer-icons">
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-whatsapp"></i>
+                    <i class="bi bi-facebook"></i>
+                </div>
+
             </div>
         </div>
 
     </footer>
+    <div class="foot">
+        &copy; 2022 SHMSA
+    </div>
     <script src="js/app.js"></script>
 </body>
 
