@@ -2,11 +2,77 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  overflow-x: hidden;
+  list-style : none;
+}
+
+body {
+  --color-primary : rgb(229, 234, 236);
+  background : var(--color-primary);
+  overflow-x : hidden;
 }
 
 *::-webkit-scrollbar {
   width: 8px;
+}
+
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+/*** Button ***/
+.btn {
+  font-weight: 500;
+  transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-outline-primary:hover {
+  color: #FFFFFF;
+}
+
+.btn-square {
+  width: 38px;
+  height: 38px;
+}
+
+.btn-sm-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+/*** Spinner ***/
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
 }
 
 button,
@@ -17,7 +83,7 @@ button:focus {
 }
 
 :root {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 section {
@@ -29,50 +95,79 @@ section {
 header {
   height: 7vh;
   width: 100vw;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
+  position: absolute;
+  z-index : 99;
+  top : 0px;
+  display : flex;
+  flex-direction : column;
 }
 
 header > * {
   margin: auto 8px;
 }
 
-header img {
-  height: 46px;
-  width: 40px;
+.topbar {
+  height : 100px;
+}
+
+.text-end {
+  display : flex;
+  justify-content : end;
+  gap : 2rem;
+  align-items : center;
+}
+
+.text-end a {
+  color : white;
 }
 
 nav {
-  height: 100%;
-  width: 100%;
+  width : 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav ul {
-  height: 100%;
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  color: navy;
-  justify-content: space-around;
-  z-index: 999;
+  display : flex;
+  width : max-content;
+  margin-top : 1.8rem;
+  color : white;
+  justify-content : space-around;
+  align-items : center;
 }
 
-#navlinks a,
-#navlinks a button {
+nav ul li {
+  margin : 0px 40px;
+}
+
+nav ul a {
+  color : white;
+}
+
+nav ul.scrolled {
+  height: 6vh;
+  width: 100%;
+  margin : 0px;
+  top : 0px;
+  left : 0px;
+  position : fixed;
+  box-shadow : 0px 0px 6px black;
+  display: inline-flex;
+  align-items: center;
+  background : white;
+  justify-content: space-around;
+  z-index: 999;
+  animation: down 1s ease-in-out forwards;
+}
+
+#navlinks.scrolled a,
+#navlinks.scrolled a button {
   text-decoration: none;
-  height: 2rem;
-  width: 6rem;
-  background: navy;
   padding-top: 0.2rem;
-  border-radius: 14px;
   transition: all 0.2s linear;
-  color: skyblue;
+  color: navy;
   text-align: center;
-  box-shadow: 0px 0px 12px skyblue;
-  animation: down 2s ease-in-out forwards;
 }
 
 @keyframes down {
@@ -86,17 +181,15 @@ nav ul {
 }
 
 #navlinks a:hover {
-  background: skyblue;
-  color: navy;
-  box-shadow: inset 0px 0px 4px navy;
+  color: red;
 }
 
 .burger {
   height: 50px;
   width: 38px;
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 14px;
+  left: 14px;
   display: flex;
   flex-direction: column;
   display: none;
@@ -104,38 +197,50 @@ nav ul {
 }
 
 .burger .bi-x {
+  color : black;
   display: none;
 }
 
 .line {
   height: 0.3rem;
-  background: black;
+  background: white;
   margin: 3px;
 }
 
 /*Banner*/
 .banner {
-  min-height: 50vh;
+  min-height: 100vh;
   width: 100vw;
-  background: skyblue;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  background : url('/images/daniel-leone-v7daTKlZzaw-unsplash.jpg');
+  background-position: center center;
+  background-size : cover;
   flex-grow: 1;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  position : relative;
 }
 
+.banner::after {
+  content : '';
+  position : absolute;
+  height : 100%;
+  width : 100%;
+  background : navy;
+  opacity : .26;
+  pointer-events : none;
+}
 .banner .text {
+  z-index : 9;
   min-width: 50%;
-}
-
-.banner img {
-  border-radius: 8px;
-  margin-left: auto;
 }
 
 .banner h1 {
   font-size: 3rem;
-  color: navy;
+  color: white;
 }
 
 .banner span {
@@ -144,7 +249,7 @@ nav ul {
 }
 
 .banner p {
-  color: navy;
+  color: white;
 }
 
 .banner button {
@@ -152,11 +257,55 @@ nav ul {
   width: 120px;
   border: 1px solid skyblue;
   background: navy;
-  color: skyblue;
+  color: white;
   cursor: pointer;
   border-radius: 24px;
   font-size: 1rem;
   margin: 12px auto;
+}
+
+/*apply*/
+#apply {
+  height : 700px;
+  width : 100vw;
+  margin-top : -80px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background : url('/images/IMG-20220512-WA0003.jpg');
+  background-position : center center;
+  background-size : cover;
+  background-attachment : fixed;
+}
+
+#apply-form {
+  height : 350px;
+  width : 380px;
+  border-radius : 6px;
+  background : white;
+  display : flex;
+  flex-direction : column;
+  justify-content : space-around;
+  align-items : center;
+}
+
+#apply-form p {
+  text-align : center;
+}
+
+#apply-form input {
+  height : 44px;
+  width : 240px;
+  border : 1px solid grey;
+  color : rgb(27, 26, 26);
+  padding-left : 14px;
+}
+
+#apply-form button {
+  height : 46px;
+  width : 120px;
+  background : orangered;
+  color : white;
 }
 
 /*Booth*/
@@ -424,6 +573,13 @@ nav ul {
   margin: 16px;
 }
 
+/** about section **/
+
+.about {
+  height : 60vh;
+  padding : 3vh 3vw;
+}
+
 /** contact section **/
 
 .contact {
@@ -501,53 +657,83 @@ nav ul {
 
 footer {
   font-family: Poppins;
+}
+
+
+
+/*** Team ***/
+.team-items {
+  margin: -.75rem;
+}
+
+.team-item {
+  padding: .75rem;
+}
+
+.team-item::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  transition: .5s;
+  z-index: -1;
+}
+
+.team-item:hover::after {
+  height: 100%;
   background: navy;
-  padding: 16px;
-  width: 100vw;
-  color: white;
 }
 
-footer p {
-  font-size: 1.4rem;
-}
-
-footer p span {
-  font-size: 1.8rem;
-}
-footer > div {
+.team-item .team-social {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
   display: flex;
-  flex-wrap: wrap;
-}
-footer div div {
-  display: flex;
-  width: 300px;
-  margin: 30px auto;
-  justify-content: space-evenly;
-  font-size: 1.3rem;
-  text-align: center;
-  flex-direction: column;
-}
-
-footer div div i {
-  margin-right: 8px;
-}
-
-footer #icons {
-  width: 100vw;
-}
-
-footer a {
-  color: skyblue;
-}
-
-.footer-icons {
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
+  align-items: center;
   justify-content: center;
-  gap: 12px;
+  background: rgba(0, 0, 0, .75);
+  overflow: hidden;
+  opacity: 0;
+  transition: .5s;
 }
-/** end footer **/
+
+.team-item:hover .team-social {
+  height: 100%;
+  opacity: 1;
+}
+
+
+/*** Footer ***/
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: var(--light);
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+  position: relative;
+  content: "\f103";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--light);
+  margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+  color: navy;
+  letter-spacing: 1px;
+  box-shadow: none;
+}
 
 .foot {
   height: 48px;
@@ -558,16 +744,23 @@ footer a {
   padding-top: 12px;
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 1024px) {
   :root {
     font-size: 14px;
   }
 
+  .topbar {
+    display : none;
+  }
+
   nav ul {
+    overflow-y : scroll;
+    overscroll-behavior: contain;
     position: fixed;
     left: 0px;
     height: 100vh;
     top: 0vh;
+    margin : 0px;
     width: 100vw;
     flex-direction: column;
     color: navy;
@@ -582,9 +775,14 @@ footer a {
     transform: translateX(0%);
   }
 
+  #navlinks a {
+    color : black;
+  }
+
   .burger {
     display: flex;
     position: relative;
+    color : white;
   }
 
   .burger.close {
@@ -598,7 +796,7 @@ footer a {
   .burger.close .bi-x {
     display: block;
     font-size: 2rem;
-    color: navy;
+    font-weight : 900;
     position: fixed;
   }
 
@@ -606,12 +804,17 @@ footer a {
   .banner .text {
     width: 100%;
   }
+    
+  .about-main {
+    margin-top : 7rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
   :root {
     font-size: 12px;
   }
+
   .news li,
   .docs > p,
   .docs li,
@@ -625,4 +828,16 @@ footer a {
     padding-left: 1.4rem;
     max-width: 90vw;
   }
+}
+
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(/images/daniel-leone-v7daTKlZzaw-unsplash.jpg) center center no-repeat;
+  background-size: cover;
+  padding-top : 200px;
+  height : 480px;
+}
+
+.img-fluid {
+  aspect-ratio : 1 / 1;
+  margin-bottom : .8rem;
 }
