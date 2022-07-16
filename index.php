@@ -46,17 +46,17 @@
             <div class="row gx-0 d-none d-lg-flex">
                 <div class="col-lg-7 px-5 text-start">
                     <div class="h-100 d-inline-flex align-items-center me-4">
-                        <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                        <i class="bi bi-map mt-1 mx-2"></i>
                         <small>P.O. Box 145 Araromi Street, Akure, Ondo State, Nigeria.</small>
                     </div>
                     <div class="h-100 d-inline-flex align-items-center">
-                        <small class="far fa-clock text-primary me-2"></small>
+                        <i class="bi bi-clock mt-1 mx-2"></i>
                         <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
                     </div>
                 </div>
                 <div class="col-lg-5 px-5 text-end">
                     <div class="h-100 d-inline-flex align-items-center me-4">
-                        <small class="fa fa-phone-alt text-primary me-2"></small>
+                        <i class="bi bi-phone mt-1 mx-2"></i>
                         <small>+234900109875</small>
                     </div>
                     <div class="h-100 d-inline-flex align-items-center">
@@ -92,6 +92,22 @@
                 </a>
             </ul>
         </nav>
+
+        <div id="portal">
+            <p>Portal</p>
+            <ul>
+                <a href="">
+                    <li>Staff Login</li>
+                </a>
+                <a href="">
+                    <li>Student Login</li>
+                </a>
+                <a href="">
+                    <li>Parent Login</li>
+                </a>
+            </ul>
+        </div>
+
         <div class="burger">
             <div class="line"></div>
             <div class="line"></div>
@@ -115,26 +131,43 @@
         </section>
         <!-- end banner -->
 
-        <div class="initiative">
-            The school was founded in *year*, and has ever since been a center of attention. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, illum?
-        </div>
         <!-- Values -->
         <section class="values">
-            <div class='mission'>
-                <h1>Our Mission</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam incidunt, ad velit eveniet natus maiores minus voluptas quisquam aperiam. Corrupti.</p>
+
+            <div class="anthem">
+                <h1>Seminary(School) Anthem</h1>
+                <pre>
+Most Sacred Heart of Jesus,
+All glory be to you,
+Most Sacred Heart of Jesus,
+All hounour be to you,
+Today we give ourselves to you,
+That you reign in our hearts,
+Today we give our lives to you,
+That we may serve your plan,
+
+Solo: Adveniat regnum tuum
+All: Adveniat regnum tuum
+May your kingdom come Lord Jesus
+Throughout the universe
+                    </pre>
             </div>
 
-            <div class="vision">
+            <div class='vision'>
                 <h1>Our Vision</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam incidunt, ad velit eveniet natus maiores minus voluptas quisquam aperiam. Corrupti.</p>
+                <p>
+                    To be a revered institution whose task is to nurture responsible students who will contribute positively to the growth of the church and the world.
+                </p>
             </div>
 
-            <div class="standards">
-                <h1>Our Standards</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam incidunt, ad velit eveniet natus maiores minus voluptas quisquam aperiam. Corrupti.</p>
+            <div class="mission">
+                <h1>Our Mission</h1>
+                <p>
+                    To Provide holistic formation according to Catholic tradition while pursuing spiritual, moral and academic life.
+                </p>
             </div>
             <h1>We don't just give students the best education, we give them a hope for the brightest of futures.</h1>
+
             <button>Apply Here</button>
         </section>
         <!-- End Values -->
@@ -160,6 +193,7 @@
                         <span>By Management | 20<sup>th</sup> of May, 2000</span>
                         <h2>Today is the day.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.</p>
+                        <button>Read More</button>
                     </div>
                 </li>
                 <li>
@@ -168,6 +202,7 @@
                         <span>By Management | 20<sup>th</sup> of May, 2000</span>
                         <h2>Today is the day.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.</p>
+                        <button>Read More</button>
                     </div>
                 </li>
                 <li>
@@ -176,6 +211,7 @@
                         <span>By Management | 20<sup>th</sup> of May, 2000</span>
                         <h2>Today is the day.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.</p>
+                        <button>Read More</button>
                     </div>
                 </li>
                 <li>
@@ -184,6 +220,7 @@
                         <span>By Management | 20<sup>th</sup> of May, 2000</span>
                         <h2>Today is the day.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laudantium.</p>
+                        <button>Read More</button>
                     </div>
                 </li>
             </ul>
@@ -264,10 +301,10 @@
                 <li>
                     <details>
                         <summary>
-                            Who are we?
+                            Where can I find you?
                         </summary>
                         <p>
-                            We are hope for your male wards.
+                            Our address is P.O. Box 145 Araromi Street, Akure, Ondo State, Nigeria.
                         </p>
                     </details>
                 </li>
@@ -339,17 +376,8 @@
                     <h4 class="text-light mb-4">Quick Links</h4>
                     <a class="btn btn-link" href="">About Us</a>
                     <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Popular Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn btn-link" href="">Our Staff</a>
+                    <a class="btn btn-link" href="">Our Gallery</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>

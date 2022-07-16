@@ -66,6 +66,22 @@
                 </a>
             </ul>
         </nav>
+
+        <div id="portal">
+            <p>Portal</p>
+            <ul>
+                <a href="">
+                    <li>Staff Login</li>
+                </a>
+                <a href="">
+                    <li>Student Login</li>
+                </a>
+                <a href="">
+                    <li>Parent Login</li>
+                </a>
+            </ul>
+        </div>
+
         <div class="burger">
             <div class="line"></div>
             <div class="line"></div>

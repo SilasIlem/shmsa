@@ -66,6 +66,22 @@
                 </a>
             </ul>
         </nav>
+
+        <div id="portal">
+            <p>Portal</p>
+            <ul>
+                <a href="">
+                    <li>Staff Login</li>
+                </a>
+                <a href="">
+                    <li>Student Login</li>
+                </a>
+                <a href="">
+                    <li>Parent Login</li>
+                </a>
+            </ul>
+        </div>
+
         <div class="burger">
             <div class="line"></div>
             <div class="line"></div>
@@ -89,6 +105,72 @@
         </div>
         <!-- Page Header End -->
 
+        <section id="admins">
+            <h1>Administratives</h1>
+
+            <ul>
+                <li>
+                    <img src="/images/IMG-20220712-WA0006.jpg" alt="">
+                </li>
+                <li>
+                    <img src="/images/IMG-20220712-WA0007.jpg" alt="">
+                </li>
+                <li>
+                    <img src="/images/IMG-20220712-WA0009.jpg" alt="">
+                </li>
+                <li>
+                    <img src="/images/IMG-20220712-WA0010.jpg" alt="">
+                </li>
+
+                <li>
+                    <img src="/images/IMG-20220712-WA0008.jpg" alt="">
+                </li>
+            </ul>
+            <div id="large">
+                <img src="/images/IMG-20220712-WA0005.jpg" alt="">
+            </div>
+
+            <h2>Busary</h2>
+
+            <ul>
+                <li></li>
+            </ul>
+
+            <h2>Hostel</h2>
+            <ul>
+                <li></li>
+            </ul>
+
+            <h2>Kitchen</h2>
+            <ul>
+                <li></li>
+            </ul>
+
+            <h2>Clinic</h2>
+            <ul>
+                <li></li>
+            </ul>
+        </section>
+
+        <section id="departments">
+            <h1>Departments</h1>
+
+            <h2>Registry</h2>
+            <ul>
+                <li></li>
+            </ul>
+
+            <h2>Art</h2>
+            <ul>
+                <li></li>
+            </ul>
+
+            <h2>Science</h2>
+            <ul>
+                <li></li>
+            </ul>
+
+        </section>
 
         <!-- Contact -->
         <section class="contact">

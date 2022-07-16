@@ -66,6 +66,22 @@
                 </a>
             </ul>
         </nav>
+
+        <div id="portal">
+            <p>Portal</p>
+            <ul>
+                <a href="">
+                    <li>Staff Login</li>
+                </a>
+                <a href="">
+                    <li>Student Login</li>
+                </a>
+                <a href="">
+                    <li>Parent Login</li>
+                </a>
+            </ul>
+        </div>
+
         <div class="burger">
             <div class="line"></div>
             <div class="line"></div>
@@ -93,12 +109,12 @@
         <!-- Photo Stack -->
         <section id="booth" class="booth">
             <ul>
-                <li><img src="images/nigeria-1758969.svg" alt=""></li>
-                <li><img src="images/IMG-20220512-WA0003.jpg" alt=""></li>
-                <li><img src="images/IMG-20220512-WA0002.jpg" alt=""></li>
-                <li><img src="images/IMG-20220512-WA0004.jpg" alt=""></li>
-                <li><img src="images/IMG-20220512-WA0001.jpg" alt=""></li>
-                <li><img src="images/IMG-20220510-WA0001.jpg" alt=""></li>
+                <li class="fadeInUp"><img src="images/IMG-20220512-WA0002.jpg" alt=""></li>
+                <li class="fadeInUp"><img src="images/IMG-20220512-WA0003.jpg" alt=""></li>
+                <li class="fadeInUp"><img src="images/IMG-20220512-WA0004.jpg" alt=""></li>
+                <li class="fadeInUp"><img src="images/IMG-20220512-WA0001.jpg" alt=""></li>
+                <li class="fadeInUp"><img src="images/nigeria-1758969.svg" alt=""></li>
+                <li class="fadeInUp"><img src="images/IMG-20220510-WA0001.jpg" alt=""></li>
             </ul>
         </section>
         <!-- End Photo stack -->

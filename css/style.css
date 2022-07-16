@@ -83,11 +83,12 @@ button:focus {
 }
 
 :root {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 section {
   margin: 0px auto 80px;
+  padding : 0px 24vw;
   text-align: center;
 }
 
@@ -184,6 +185,41 @@ nav ul.scrolled {
   color: red;
 }
 
+#portal {
+  position: absolute;
+  top : 50px;
+  right : 30px;
+}
+
+#portal > p {
+  height : 48px;
+  padding : 12px 1rem;
+  border-radius : 6px;
+  background :rgb(27, 26, 26);
+  color : white;
+  box-shadow : 0px 0px 4px 2px white;
+  text-align : center;
+}
+
+#portal > ul {
+  display : none;
+  flex-direction : column;
+  position : absolute;
+  right : 0px;
+  padding : 1rem;
+  gap : 1rem;
+  width : max-content;
+  background : white;
+}
+
+#portal:hover > ul {
+  display : flex;
+}
+
+#portal a {
+  color : black;
+}
+
 .burger {
   height: 50px;
   width: 38px;
@@ -209,9 +245,8 @@ nav ul.scrolled {
 
 /*Banner*/
 .banner {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100vw;
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   background : url('/images/daniel-leone-v7daTKlZzaw-unsplash.jpg');
@@ -311,7 +346,7 @@ nav ul.scrolled {
 /*Booth*/
 .booth ul {
   display: flex;
-  gap: 4rem 20rem;
+  gap: 3rem;
   margin: 3rem 1rem;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -352,17 +387,15 @@ nav ul.scrolled {
 }
 
 /*Values*/
-.values {
-  padding: 12px;
-}
-
 .values > div {
-  margin-bottom: 16px;
+  margin-bottom: 80px;
 }
 
 .values div h1 {
   color: red;
-  font-size: 3rem;
+  font-size: 2.4rem;
+  margin-bottom : 20px;
+  text-align : center;
 }
 
 .values div p {
@@ -386,9 +419,23 @@ nav ul.scrolled {
   margin: 12px auto;
 }
 
+.anthem {
+  font-size : 1.1rem;
+}
+
+.anthem pre {
+  text-align : left;
+  padding : 0px;
+  margin-left : 16vw;
+  overflow : visible;
+  font-size : 1.2rem;
+}
+
 /*News*/
 .news {
-  padding: 60px 12px 20px;
+  margin-top : -80px;
+  padding-top : 60px;
+  padding-bottom : 20px;
   background: navy;
   color: white;
 }
@@ -401,7 +448,7 @@ nav ul.scrolled {
   display: flex;
   text-align: left;
   align-items: center;
-  gap: 8rem 20rem;
+  gap: 1rem 3rem;
   margin-top: 40px;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -409,7 +456,9 @@ nav ul.scrolled {
 
 .news li {
   min-height: 300px;
-  width: 400px;
+  padding : 16px;
+  background : white;
+  width: 380px;
   display: flex;
   flex-direction: column;
 }
@@ -420,21 +469,29 @@ nav ul.scrolled {
   margin: auto;
 }
 
+.news li button {
+  height : 46px;
+  width : 100px;
+  background : black;
+  color : white;
+}
+
 .news div {
   padding: 16px 1rem;
 }
 
 .news div h2 {
   font-size: 1.8rem;
+  color : navy;
 }
 
 .news div span {
   font-size: 1rem;
-  color: skyblue;
+  color: black;
 }
 
 .news div p {
-  color: skyblue;
+  color: black;
 }
 
 .news .sub form {
@@ -448,6 +505,7 @@ nav ul.scrolled {
 .sub form input {
   height: 46px;
   width: 400px;
+  font-size : 13px;
   padding-left: 20px;
   border-radius: 6px;
   background: white;
@@ -722,15 +780,16 @@ footer {
 
 .footer .btn.btn-link::before {
   position: relative;
-  content: "\f103";
+  content: "\25BA";
   font-family: "Font Awesome 5 Free";
-  font-weight: 900;
+  font-weight: 300;
+  font-size : .6rem;
   color: var(--light);
   margin-right: 10px;
 }
 
 .footer .btn.btn-link:hover {
-  color: navy;
+  color: orangered;
   letter-spacing: 1px;
   box-shadow: none;
 }
@@ -745,10 +804,6 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-  :root {
-    font-size: 14px;
-  }
-
   .topbar {
     display : none;
   }
@@ -769,6 +824,7 @@ footer {
     transform: translateX(100%);
     transition: all 0.2s linear;
     z-index: 99;
+    padding-bottom : 70px;
   }
 
   ul#navlinks.show {
@@ -810,9 +866,13 @@ footer {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 764px) {
   :root {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  section {
+    padding : 0px;
   }
 
   .news li,
@@ -820,13 +880,21 @@ footer {
   .docs li,
   .faqs details,
   .main_form {
-    width: 95vw;
+    min-width: 95vw;
+    max-width: 96vw;
   }
 
+  .main_form {
+    margin : auto;
+  }
   .sub input {
     font-size: 0.8rem;
     padding-left: 1.4rem;
     max-width: 90vw;
+  }
+
+  .anthem pre {
+    margin-left : 25vw;
   }
 }
 
@@ -840,4 +908,29 @@ footer {
 .img-fluid {
   aspect-ratio : 1 / 1;
   margin-bottom : .8rem;
+}
+
+#admins ul {
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : space-around;
+  align-items : center;
+  gap : 1.5rem;
+}
+
+#admins li {
+  width : 300px;
+  display : flex;
+  flex-direction : column;
+  gap : 1rem;
+}
+
+#admins img {
+  width : 100%;
+  aspect-ratio : 1 / 1;
+}
+
+#admins #large img {
+  width : 90vw;
+  margin : 60px auto;
 }
